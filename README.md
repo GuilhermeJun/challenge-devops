@@ -257,18 +257,3 @@ docker compose up -d oracledb
 docker compose logs -f oracledb
 ```
 
----
-
-## 📄 Licença
-
-Este projeto é destinado a fins acadêmicos/demonstração. Adapte conforme suas políticas internas antes de uso em produção.
-
----
-
-## ✨ Créditos
-
-- **Autor:** Édipo Borges de Carvalho (bmvck)  
-- **Repos relacionados:**  
-  - Java: `bmvck/finance-control` (ou o repositório que você usa)  
-  - .NET: `bmvck/notNetContabil`  
-  - DB scripts: `bmvck/database_ch`

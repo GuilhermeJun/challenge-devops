@@ -1,4 +1,4 @@
-# Challenge – Stack Oracle + .NET + Java (Docker Compose)
+# Challenge – Oracle APEX
 
 Ambiente completo para subir um **Oracle Database Free (23c/26ai)** e duas APIs de aplicação:
 

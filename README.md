@@ -42,7 +42,7 @@ Ambiente completo para subir um **Oracle Database Free (23c/26ai)** e duas APIs 
 ```bash
 # 1) Clone
 git clone git@github.com:bmvck/challenge-sprint2-cloud.git
-cd challenge-sprint2-cloud
+cd challenge-devops
 
 # 2) (Opcional recomendado) Crie um .env com overrides
 cp .env.example .env   # edite se quiser alterar senhas/portas
@@ -64,14 +64,12 @@ docker compose ps
 ### Endpoints de teste
 
 - **.NET API**:  
-  - Local: `http://localhost:8082/`  
-  - Remoto (OCI): `http://140.238.179.84:8082/`  
+  - Local: `http://localhost:8082/`
   - Swagger: `http://<HOST>:8082/swagger`  
   - Health: `http://<HOST>:8082/health`
 
 - **Java API**:  
-  - Local: `http://localhost:8081/`  
-  - Remoto (OCI): `http://140.238.179.84:8081/`  
+  - Local: `http://localhost:8081/`
   - Swagger: `http://<HOST>:8081/swagger-ui/`
 
 - **Oracle**:  
@@ -205,7 +203,7 @@ curl -i http://localhost:8081/actuator/health
 ## 📝 Estrutura de pastas (sugerida)
 
 ```
-challenge-sprint2-cloud/
+challenge-devops/
 ├─ docker-compose.yml
 ├─ .env.example
 ├─ db_init/
